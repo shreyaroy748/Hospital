@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hospital</title>
+    <link rel="stylesheet" href="CSS/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Introduction Bootstrap -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- font awesome icon -->
+    <script src="https://kit.fontawesome.com/e8e6eba5d5.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+<!-- w3 school -->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  </head>
+
+  <body data-spy="scroll" data-target="#next">
+
+
+<!-- Top Bar -->
+
+ <section id="topbar" class="d-none d-lg-block topNav " style="height:35px;" >
+    <div class="container d-flex">
+      <div class="contact-info mr-auto">
+        <i class="fa fa-envelope"></i><a href="mailto:contact@example.com">contact@example.com</a>
+      <i class="fa fa-phone"></i> +1 5589 55488 55
+      </div>
+      <div class="social-links">
+        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+        <a href="#" class="facebook"><i class="fa fa-facebook"></i></i></a>
+        <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+        <a href="#" class="skype"><i class="fa fa-skype"></i></i></a>
+      </div>
+    </div>
+  </section>
+
+
+      <!-- <Navbar> -->
+
+
+       <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top navbar-inverse affix-top" id="next" data-spy="affix-top" data-offset-top="675">
+         <div class="navbar-inner" data-spy="affix-top">
+         <div class="container">
+
+          <img class="logo-pic" src="img/logo.png"  alt="">
+
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+       <li class="nav-item active">
+         <a class="nav-link scroll js-scroll-trigger" href="#about">ABOUT US</a>
+       </li>
+       <li class="nav-item active ">
+         <a class="nav-link scroll js-scroll-trigger" href="#services">SERVICES</a>
+       </li>
+       <li class="nav-item active">
+         <a class="nav-link scroll js-scroll-trigger" href="#department">DEPARTMENT</a>
+       </li>
+       <li class="nav-item active ">
+         <a class="nav-link scroll js-scroll-trigger" href="#medical">MEDICAL TEAM</a>
+       </li>
+       <li class="nav-item active">
+         <a class="nav-link scroll js-scroll-trigger" href="#latest">LATEST NEWS</a>
+       </li>
+       <li class="nav-item active ">
+         <a class="nav-link scroll js-scroll-trigger" href="#contact">CONTACT US</a>
+       </li>
+      </ul>
+      </div>
+       </div>
+</div>
+    </nav>
+
+<!-- background -->
+
+<div class="background">
+  <div class="font">
+    <form class="fox" action="/action_page.php" style="max-width:500px;margin:auto">
+      <h2 class="make">MAKE AN APPOINTMENT</h2>
+      <div class="input-container">
+
+        <input class="input-field" type="text" placeholder="*Your Name" name="usrnm">
+      </div>
+
+      <div class="input-container">
+
+        <input class="input-field" type="text" placeholder="*Your Email" name="email">
+      </div>
+
+      <div class="input-container">
+        <input class="input-field" type="password" placeholder="Your Phone" name="psw">
+      </div>
+
+    <div class="input-container">
+        <input class="input-field" type="password" placeholder="Your Message" name="psw">
+      </div>
+      <button type="submit" class="btn">Register</button>
+    </form>
+
+
+  </div>
+</div>
+
+
+
+
+<!-- about us -->
+
+<section class="main-bar" id="about">
+  <div class="heading ">
+    <h1 class="long">Welcome to the Med Center </h1>
+    <p class="long">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+     Lorem Ipsum has been the industry's <br> standard dummy text ever since the 1500s,
+     when an unknown printer took a galley of type and <br>scrambled it to make a type specimen book.</p>
+  </div>
+  <div class="card-group">
+  <div class="card">
+    <div class="row">
+
+        <div class="col-md-6 col-sm-12">
+            <img class="card-img-top" src="img/doctor2.jpg" alt="Card image cap">
+        </div>
+
+
+      <div class="col-md-6 col-sm-12">
+        <div class="card-body">
+          <h4 class="card-title">We are expert in the field of medical! total health care</h4>
+          <p>Since our foundation in 2005 our goal has been to use digital technology to create experiences with a deeper impact.</p>
+          <p >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        </div>
+    </div>
+
+  </div>
+
+  </div>
+
+  </div>
+
+</section>
+
+<!-- services -->
+<section class="conten bg-light" id="services">
+  <div class="center">
+    <h1 class="text">Why Choose Us</h1>
+    <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+     Lorem Ipsum has been the industry's <br> standard dummy text ever since the 1500s,
+     when an unknown printer took a galley of type and <br>scrambled it to make a type specimen book.</p>
+  </div>
+
+  <div class="can">
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <div class="simple" ><img src="img/doctor.png" alt=""></div>
+        <h3 class="cannot">Professional Doctors</h3>
+        <p class="cannot">Lorem Ipsum is simply dummy text of <br> the printing and typesetting industry.<br> Lorem Ipsum has been.</p>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+      <div class="simple"><img  src="img/blood bank.png" alt=""></div>
+
+
+        <h3 class="cannot">Exclusive Blood Bank</h3>
+        <p class="cannot">Lorem Ipsum is simply dummy text of <br> the printing and typesetting industry.<br> Lorem Ipsum has been.</p>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+        <div class="simple"><img  src="img/medicine.png" alt=""></div>
+        <h3 class="cannot">Internal Medicine</h3>
+        <p class="cannot">Lorem Ipsum is simply dummy text of <br> the printing and typesetting industry.<br> Lorem Ipsum has been.</p>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+        <div class="simple"><img src="img/emergency.png" alt=""></div>
+        <h3 class="cannot">Emergency services</h3>
+        <p class="cannot">Lorem Ipsum is simply dummy text of <br> the printing and typesetting industry.<br> Lorem Ipsum has been.</p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- department -->
+
+<section class="loading" id="department">
+<div class="load">
+  <h1 class="text">Our Departments</h1>
+  <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+   Lorem Ipsum has been the industry's <br> standard dummy text ever since the 1500s,
+   when an unknown printer took a galley of type and <br>scrambled it to make a type specimen book.</p>
+
+</div>
+
+  <div class="w3-bar ">
+    <button class="w3-bar-item w3-button" onclick="openCity('London')">DENTAL CARE</button>
+    <button class="w3-bar-item w3-button" onclick="openCity('Paris')">HEART DISEASE</button>
+    <button class="w3-bar-item w3-button" onclick="openCity('Tokyo')">GENERAL TREMENT</button>
+  </div>
+<div id="London" class="w3-container w3-display-container city">
+  <div class="card-group">
+  <div class="card">
+    <div class="row">
+
+        <div class="col-md-6 col-sm-12">
+            <img class="card-img-top" src="img/dental.jpg" alt="Card image cap">
+        </div>
+
+
+      <div class="col-md-6 col-sm-12">
+        <div class="card-body">
+          <h4 class="card-title">We are expert in the field of medical! total health care</h4>
+          <p>Since our foundation in 2005 our goal has been to use digital technology to create experiences with a deeper impact.</p>
+          <p >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        </div>
+    </div>
+
+  </div>
+
+  </div>
+
+  </div>
+</div>
+
+
+
+
+<div id="Paris" class="w3-container w3-display-container city"style="display:none" >
+  <div class="card-group">
+  <div class="card">
+    <div class="row">
+
+        <div class="col-md-6 col-sm-12">
+            <img class="card-img-top" src="img/heart.jpg" alt="Card image cap">
+        </div>
+
+
+      <div class="col-md-6 col-sm-12">
+        <div class="card-body">
+          <h4 class="card-title">We are expert in the field of medical! total health care</h4>
+          <p>Since our foundation in 2005 our goal has been to use digital technology to create experiences with a deeper impact.</p>
+          <p >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        </div>
+    </div>
+
+  </div>
+
+  </div>
+
+  </div>
+</div>
+<div id="Tokyo" class="w3-container w3-display-container city" style="display:none">
+
+
+  <div class="card-group">
+  <div class="card">
+    <div class="row">
+
+        <div class="col-md-6 col-sm-12">
+            <img class="card-img-top" src="img/general.jpg" alt="Card image cap">
+        </div>
+
+
+      <div class="col-md-6 col-sm-12">
+        <div class="card-body">
+          <h4 class="card-title">We are expert in the field of medical! total health care</h4>
+          <p>Since our foundation in 2005 our goal has been to use digital technology to create experiences with a deeper impact.</p>
+          <p >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        </div>
+    </div>
+
+  </div>
+
+  </div>
+
+  </div>
+</div>
+</section>
+
+
+<!-- resister point -->
+
+<div class="pointer">
+  <div class="strong">
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        <h2 class="Register">Register today and Get first Appointment!</h2>
+      </div>
+      <div class="col-md-6 col-sm-12 "style="padding-left:140px;">
+        <a href="#" class="app">APPOINTMENT</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<!-- medical team -->
+
+<section class="team" id="medical">
+  <div class="team-member">
+    <h1 class="text">Meet our Medical Specialists</h1>
+    <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+     Lorem Ipsum has been the industry's <br> standard dummy text ever since the 1500s,
+     when an unknown printer took a galley of type and <br>scrambled it to make a type specimen book.</p>
+  </div>
+<div class="example">
+  <div class="row">
+    <div class="col-md-4 col-sm-12">
+      <img class="doctor" src="img/addison.jpg" alt="">
+      <h5 class="member">Dr. Addison Alexander</h5>
+      <p class="member">CARDIAC CARE</p>
+    </div>
+    <div class="col-md-4 col-sm-12">
+      <img class="doctor" src="img/andrew.jpg" alt="">
+      <h5 class="member">Dr. Andrew Bert</h5>
+      <p class="member">DENTAL CARE</p>
+    </div>
+    <div class="col-md-4 col-sm-12">
+      <img class="doctor" src="img/adaline.jpg" alt="">
+      <h5 class="member">Dr. Adaline Becka</h5>
+      <p class="member">CANCER CARE</p>
+    </div>
+
+  </div>
+
+</div>
+</section>
+
+<div class="health">
+<div class="inbox">
+  <img class="img" src="img/Cama.jpg" alt="Notebook">
+  <div class="content">
+    <h1 class="ever">Meeting the challenges of an ever-changing healthcare environment.</h1>
+
+</div>
+</div>
+</div>
+
+<!-- Latest News -->
+<section class="latest" id="latest">
+  <div class="last">
+    <h1 class="text">Latest News</h1>
+    <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br> when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    <div class="row">
+      <div class="col-md-4 col-sm-12">
+       <img class="spa" src="img/spa1.jpg" alt="">
+       <h5 class="in">THE LATEST DIET PILLS FOR MEN IN MIDDLE</h5>
+       <p class="in">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+       <hr>
+      </div>
+
+      <div class="col-md-4 col-sm-12">
+       <img class="spa" src="img/spa2.jpg" alt="">
+       <h5 class="in">MODERN MATERNITY WARD IN THE HOSPITAL</h5>
+       <p class="in">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+         <hr>
+      </div>
+
+      <div class="col-md-4 col-sm-12">
+       <img class="spa" src="img/spa3.jpg" alt="">
+       <h5 class="in">UNUSUAL EXPERIMENTS NATING DESIGNERS</h5>
+       <p class="in">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+       <hr>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- contact us -->
+
+<section class="contact-us" id="contact">
+  <div class="corona">
+    <h1 class="text">Latest News</h1>
+    <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br> when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+<div class="marker">
+     <div class="row">
+      <div class="col-md-4 col-sm-12">
+        <div class="cls">
+        <i class="fa fa-map-marker fa-3x" ></i>
+      </div>
+        <p class="no-reply">301 The Greenhouse, Custard, <br>Factory, London, E2 8DY.</p>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <div class="cls">
+        <i class="fa fa-mobile fa-3x"></i>
+        </div>
+        <p class="no-reply">(M) +44 (0) 123 456 7890 <br>(O) +44 (0) 123 456 7890</p>
+      </div>
+
+           <div class="col-md-4 col-sm-12">
+             <div class="cls">
+            <i class="fa fa-envelope fa-3x"></i>
+          </div>
+         <p class="no-reply">no-reply@domain.com <br>help@domain.com</p>
+       </div>
+
+    </div>
+</div>
+  </div>
+
+</section>
+
+
+<!--Google map-->
+<div class="google">
+<!-- <div id="map-container-google-1" class="z-depth-1-half map" style="height: 300px">
+  <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+    style="border:0" allowfullscreen></iframe>
+</div> -->
+<div class="mapouter">
+  <div class="gmap_canvas">
+    <iframe width="1600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Dakshineswar%2C%20Kolkata%2C%20West%20Bengal%20700076%2C%20India&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+    <a href="https://www.whatismyip-address.com/nordvpn-coupon/"></a></div>
+    <style>.mapouter{position:relative;text-align:right;height:500px;width:1600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1600px;}</style></div>
+</div>
+
+
+<footer id="footer-section6" class="bg-white padding-60px-tb xs-padding-40px-tb builder-bg">
+           <div class="container">
+
+                   <div class="col-md-12 col-sm-12 col-xs-12 text-center margin-four-bottom">
+                       <div class="social social-icon-color title-small">
+                           <a href="#" class="margin-eight-right fb">
+                               <i class="fa fa-facebook fa-2x"></i>
+                           </a>
+                           <a href="#" class="margin-eight-right twi">
+                               <i class="fa fa-twitter fa-2x"></i>
+                           </a>
+                           <a href="#" class="margin-eight-right go">
+                               <i class="fa fa-google-plus fa-2x"></i>
+                           </a>
+                           <a href="#" class="margin-eight-right pin">
+                               <i class="fa fa-pinterest fa-2x"></i>
+                           </a>
+                           <a href="#" class="margin-eight-right lin">
+                               <i class="fa fa-linkedin fa-2x"></i>
+                           </a>
+                           <a href="#" class="margin-eight-right you">
+                               <i class="fa fa-youtube fa-2x"></i>
+                           </a>
+                       </div>
+                       <hr>
+                   </div>
+                   <div class="col-md-12 col-sm-12 col-xs-12 text-center power ">
+                       <p class="tz-text no-margin-bottom">&COPY; 2016 LeadGen is proudly powered by <a class="text-light-gray2" href="http://www.themezaa.com/">ThemeZaa.</a></p>
+                   </div>
+
+           </div>
+       </footer>
+
+
+<!--Google Maps-->
+
+<!-- ========jquery============== -->
+<script type="text/javascript">
+function openCity(cityName) {
+  var i;
+  var x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  document.getElementById(cityName).style.display = "block";
+}
+
+
+
+
+
+// for underline
+
+// $(".js-scroll-trigger").click(function () {
+// $(".navbar-collapse").collapse("hide");
+// });
+//
+// // Activate scrollspy to add active class to navbar items on scroll
+// $("body").scrollspy({
+// target: "#next",
+// offset: 100,
+// });
+//
+// // Collapse Navbar
+// var navbarCollapse = function () {
+// if ($("#navbarNav").offset().top > 100) {
+// $("#navbarNav").addClass("navbar-shrink");
+// } else {
+// $("#navbarNav").removeClass("navbar-shrink");
+// }
+// };
+// // Collapse now if page is not at top
+// navbarCollapse();
+// // Collapse the navbar when page is scrolled
+// $(window).scroll(navbarCollapse);
+// })
+
+</script>
+
+  </body>
+</html>
